@@ -8789,6 +8789,8 @@ with pkgs;
 
   rowhammer-test = callPackage ../tools/system/rowhammer-test { };
 
+  rpcgen = netbsd.rpcgen;
+
   rpg-cli = callPackage ../games/rpg-cli { };
 
   rpPPPoE = callPackage ../tools/networking/rp-pppoe { };
